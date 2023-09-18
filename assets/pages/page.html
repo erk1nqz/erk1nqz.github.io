@@ -3,24 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>AB Flowers</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <h1 class="header__logo">ab Flowers</h1>
+                <h1 class="header__logo">LA Rose</h1>
                 <nav class="nav">
-                    <a href="../../index.html" class="nav__link">Bas bet</a>
-                    <a href="page.html" class="nav__link">Biz turaly</a>
+                    <a href="../../index.html" id="nav__link">Главная страница</a>
+                    <a href="page.html" id="nav__link">О нас</a>
                 </nav>
+            </div>
+            <div class="header__intro">
+                <figure class="quote">
+                    <blockquote>Миллион, миллион, миллион алых роз</blockquote>
+                    <blockquote>Из окна, из окна, из окна видишь ты.</blockquote>
+                    <blockquote>Кто влюблен, кто влюблен, кто влюблен и всерьез.</blockquote>
+                    <blockquote>Свою жизнь для тебя превратит в цветы.</blockquote>
+                    <figcaption>
+                      &mdash; Алла Пугачева, <cite>Миллион роз</cite>
+                    </figcaption>
+                </figure>
+                <img src="../img/alla.png" alt="Pugacheva">
             </div>
         </div>
     </header>
+
     <section class="about">
         <div class="container">
-            <h2>Biz Turaly</h2>
+            <h1 class="about__title">О нас</h1>
+            <div class="about__block">
+                <div class="ablock__left">
+                    <p class="about__text">У нас всегда предоставлен широкий ассортимент отличных цветов.</p>
+                    <p class="about__text">Наш каталог насчитывает много десятков наименований букетов, очень красивых и гармоничных, которые будут прекрасно смотреться.</p>
+                    <p class="about__text">В любом жилище или офисе. Кроме букетов, наши клиенты могут приобрести цветочные композиции в виде декоративных корзинок, шляпных коробок.</p>
+                    <p class="about__text">Есть также "Сопутствующие" товары: мягкие игрушки, шары с гелием, шоколад.</p>
+                </div>
+                <div class="ablock__right">
+                    <img src="../img/ablock-right.jpg" alt="Store" class="about__img">
+                </div>
+            </div>
+            <div class="about__block">
+                <div class="ablock__left">
+                    <img src="../img/ablock-left.jpg" alt="Store" class="about__img">
+                </div>
+                <div class="ablock__right">
+                    <p class="about__text">Наши филиалы</p>
+                    <table id="stores">
+                        <tr>
+                            <th>Город</th>
+                            <th>Адресс</th>
+                        </tr>
+                        <tr>
+                            <td>Астана</td>
+                            <td>Аль-Фараби, 31</td>
+                        </tr>
+                        <tr>
+                            <td>Алматы</td>
+                            <td>Толе би, 78</td>
+                        </tr>
+                        <tr>
+                            <td>Атырау</td>
+                            <td>Сатпаева, 20</td>
+                        </tr>
+                        <tr>
+                            <td>Уральск</td>
+                            <td>Надежда, 19</td>
+                        </tr>
+                        <tr>
+                            <td>Усть-Каменогорск</td>
+                            <td>Казахстан, 62</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section class="feedback">
+        <div class="container">
+            <h1 class="feedback__title">Отзывы</h1>
+            <div class="feedback__block">
+                <div class="fb">
+                    <div class="feedback__up">
+                        <img src="../img/feedback1.png" alt="woman" class="feedback__img">
+                        <p class="feedback__name">Анна</p>
+                    </div>
+                    <p class="feedback__text">"Все на высшем уровне. Обязательно обращусь к вам еще не один раз!"</p>
+                </div>
+                <div class="fb">
+                    <div class="feedback__up">
+                        <img src="../img/feedback2.png" alt="man" class="feedback__img">
+                        <p class="feedback__name">Олег</p>
+                    </div>
+                    <p class="feedback__text">"Спасибо огромное! Именинница в восторге. Буду обращаться к вам еще"</p>
+                </div>
+                <div class="fb">
+                    <div class="feedback__up">
+                        <img src="../img/feedback3.png" alt="woman" class="feedback__img">
+                        <p class="feedback__name">Ирина</p>
+                    </div>
+                    <p class="feedback__text">"Букет шикарный. Доставка Доставка вовремя. Вы настоящие профессионалы. Спасибо!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <section class="prefooter">
+        <hr><hr><hr><hr><hr>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__left">
+                    <div class="footer__title">LA Rose</div>
+                </div>
+                <div class="footer__center">
+                    <a href="" class="footer__links">Популярное</a>
+                    <a href="" class="footer__links">Каталог</a>
+                    <a href="" class="footer__links">О нас</a>
+                    <a href="" class="footer__links">Отзывы</a>
+                    <a href="" class="footer__links">Контакты</a>
+                </div>
+                <div class="footer__right">
+                    <p class="footer__text">Адресс: Проспект Мангилик ел 55/10</p>
+                    <p class="footer__text">Рабочие часы: 24/7</p>
+                    <p class="footer__text">Телефон: +7 (700) 700 70-70</p>
+                    <p class="footer__text">Email: abflowers@gmail.com</p>
+                    <a href="https://www.instagram.com/oddaishaa" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://www.instagram.com/erk1nqz" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://t.me/aiishaak" class="fa fa-telegram"></a>
+                    <a href="https://t.me/zhureee3eem" class="fa fa-telegram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>   
 </body>
 </html>
